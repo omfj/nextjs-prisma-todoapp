@@ -37,6 +37,7 @@ const CreateTodoModal = () => {
       status: isSuccess ? "success" : "error",
       duration: 3000,
       isClosable: true,
+      position: "top",
     });
 
     if (isSuccess) {

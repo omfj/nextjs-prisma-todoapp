@@ -75,7 +75,7 @@ const TodoOverview = () => {
                 onClick={() => void handleUpdate(todo)}
               />
               <Button onClick={() => void handleDelete(todo)} colorScheme="red">
-                Delete
+                Remove
               </Button>
             </Flex>
           </Flex>
