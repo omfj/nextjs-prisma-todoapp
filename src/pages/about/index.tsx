@@ -4,7 +4,7 @@ const AboutPage = () => {
   return (
     <Center gap="5" flexDir="column">
       <Heading>About</Heading>
-      <Text>My implementation of the famous todo app-project. </Text>
+      <Text>My implementation of the famous todo app-project.</Text>
     </Center>
   );
 };

@@ -6,7 +6,8 @@ const prisma = new PrismaClient();
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === "GET") {
     const todos = await prisma.todo.findMany();
-    res.json(todos);
+
+    res.status(200).json(todos);
   }
 
   if (req.method === "POST") {
