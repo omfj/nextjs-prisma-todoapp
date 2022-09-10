@@ -26,10 +26,22 @@ Generate the prisma client
 npx prisma generate
 ```
 
+Create a migration
+
+```sh
+npx prisma migrate dev
+```
+
 Run the local server
 
 ```sh
 yarn dev
+```
+
+Make sure your `.env` look like this:
+
+```env
+DATABASE_URL=file:./dev.db
 ```
 
 Happy hacking!
