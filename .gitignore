@@ -5,11 +5,12 @@
 /.pnp
 .pnp.js
 
-# prisma
-prisma/dev.db
-
 # testing
 /coverage
+
+# prisma
+dev.db
+*.env*
 
 # next.js
 /.next/
